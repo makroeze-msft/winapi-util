@@ -12,7 +12,7 @@ license = "Unlicense/MIT"
 categories = ["os::windows-apis", "external-ffi-bindings"]
 
 [target.'cfg(windows)'.dependencies.winapi]
-version = "0.3"
+path = "../winapi-rs"
 features = [
   "std",
   "consoleapi",
